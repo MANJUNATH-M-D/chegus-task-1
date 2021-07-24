@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    /* border: 1px solid red; */
+}
+.navbar1{
+    
+}
+
+.logo{
+    padding-left: 50px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+.menu{
+    padding-right: 50px;
+}
+.text{
+ /* font-weight: bold; */
+ 
+}
+.dropdown-menu{
+    background-color: #212529;
+}
+/* hover effect */
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+    background-color: crimson;
+    border-radius: 3px;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: crimson;
+    border-radius: 3px;
+}
+
+/* Sliding start */
+.carousel-item img{
+    /* height: 500px; */
+}
+
+
+/* Sliding End */
+
+/* news start */
+.news{
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    padding-top: 50px;
+}
+.news h3{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 10px;
+}
+.news p{
+    text-align: center;
+    color: white;
+}
+.news .new{
+    border: linear-gradient(to right, #ee0979, #ff6a00); 
+    width: 22%;
+    margin: auto;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+    border-radius: 3px;
+    font-weight: bold;
+}
+.news .bar{
+
+}
+.fa{
+    padding-right: 8px;
+}
+
+.bottom{
+    padding-top: 80px;
+    padding-bottom: 25px;
+    background: linear-gradient(to right, #000000c7, #434343);
+}
+.bottom p{
+    color: white;
+}
+
+.footer{
+    background-color: black;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+/* top */
+.icon{
+    position: relative;
+}
+.icon .top{
+        border: linear-gradient(to right, #8e0e00, #1f1c18);
+        background: linear-gradient(to right, #8e0e00, #1f1c18);
+        position: fixed;
+        bottom: 0px;
+        right: 10px;
+        width: 50px;
+        height: 60px;
+        border-radius: 15px 15px 0px 0px;
+    
+}
+.icon .top i{
+    font-size: 45px;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    color: white;
+
+}
+
+
+
+
+/* media query */
+@media only screen and (min-width:576px) and (max-width:767px){
+
+}
